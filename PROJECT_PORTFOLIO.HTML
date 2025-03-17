@@ -1,0 +1,92 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+      <!-- Link to the CSS file -->
+      <link rel="stylesheet" href="portfolio.css">
+    
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <!-- Navbar -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I'm a web developer with a passion for creating interactive websites. Here's a little bit about me.</p>
+        <p>I love coding, learning new technologies, and building projects that challenge my skills. In my free time, I also enjoy graphic design and photography.</p>
+        <img src="rayen photo.jpg" width="200">
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+        <h2>My Work</h2>
+        <p>Check out some of the projects I've worked on.</p>c
+        
+        <!-- Example Project -->
+        <h3>Project 1: Portfolio Website</h3>
+        <p>A responsive portfolio website showcasing my skills and work.</p>
+        
+        <div class="video-container">
+           
+            <video src="FilmForth Untitled.mp4" width="400" controls autoplay>
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Here is my resume, feel free to take a look!</p>
+        <ul>
+            <li><strong>Education:</strong> Bachelor of Science in Computer Science</li>
+            <li><strong>Skills:</strong> HTML, CSS, JavaScript, React, Node.js</li>
+            <li><strong>Experience:</strong> Web Developer at XYZ Company</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section with Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch with me, please fill out the form below.</p>
+
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br><br>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
